@@ -1,0 +1,53 @@
+.header__container {
+  height: 50vh;
+  width: 100%;
+  background-image: url(../images/rick-morty.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 90%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+}
+
+.form__input {
+  display: flex;
+  justify-content: center;
+}
+
+.inputText {
+  padding: 1rem;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
+  outline: none;
+  opacity: 70%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.inputText:focus {
+  border: 2px solid #ff00ff;
+  background-color: #00ffff;
+}
+
+.btn__search {
+  padding: 0 0.5rem 0 0.5rem;
+  border-radius: 0.5rem;
+  opacity: 70%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn__search:active {
+  border: 2px solid #ff00ff;
+  background-color: #ffd700;
+}
